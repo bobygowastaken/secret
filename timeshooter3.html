@@ -1,13 +1,32 @@
 <html>
   <head>
     <link rel="stylesheet" type="text/css" href="style.css">
+
+    <style>
+        
+        .game {
+            background-color: darkgreen;
+            color: whitesmoke;
+            font-family: Arial, sans-serif;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .game:hover {
+            background-color: #074d07;
+        }
+        
+    </style>
+	  
   </head>
   <body>
 
     <script>
       function openGame() {
     	var win = window.open ()
-    	var url = "URL BRUH"
+    	var url = "https://google-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/sk1bx/version@0d8fb9c7430567ed0900902593eee6ba2ba8d297/ts3.xml"
     	var iframe = win.document.createElement('iframe')
 	    iframe.style.width = "100%"
 	    iframe.style.height = "100%"
@@ -27,7 +46,7 @@
 
     <br>
 
-    <button onclick="openGame()" > FULLSCREEN </button>
+    <button class="game" onclick="openGame()" > FULLSCREEN </button>
       
     <h3>added on 12/2/2023</h3>
       
