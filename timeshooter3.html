@@ -3,6 +3,20 @@
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
+
+    <script>
+      function openGame() {
+    	var win = window.open ()
+    	var url = "URL BRUH"
+    	var iframe = win.document.createElement('iframe')
+	    iframe.style.width = "100%"
+	    iframe.style.height = "100%"
+    	iframe.style.border = "none"
+    	iframe.src = url
+	    win.document.body.appendChild(iframe)
+    }
+  </script>
+    
     <center>
     <h1>Time Shooter 3</h1>
     <h3>a game similar to Superhot, where the world goes at your speed. Kill the terrorists and save the hostages.</h3>
@@ -11,7 +25,12 @@
 
     <iframe src="https://google-opensocial.googleusercontent.com/gadgets/ifr?url=https://cdn.jsdelivr.net/gh/sk1bx/version@0d8fb9c7430567ed0900902593eee6ba2ba8d297/ts3.xml" width="50%" height="600px" frameborder="0" scrolling="no"></iframe>
 
+    <br>
+
+    <button onclick="openGame()" > FULLSCREEN </button>
+      
     <h3>added on 12/2/2023</h3>
+      
     </center>
   </body>
 </html>
